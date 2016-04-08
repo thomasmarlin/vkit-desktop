@@ -1,0 +1,10 @@
+﻿<Window x:Class="VkitDesktop.WaitDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Please wait" Height="84" Width="347" Loaded="Window_Loaded"
+        Background="WhiteSmoke" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="3">
+        <TextBlock Height="23" HorizontalAlignment="Left" Name="textBlock1" Text="Exporting to PDF. This may take a minute or two." VerticalAlignment="Top" />
+        <TextBlock Margin="0,15,0,0" Text="White border cards take longer. Please wait..."/>
+    </Grid>
+</Window>

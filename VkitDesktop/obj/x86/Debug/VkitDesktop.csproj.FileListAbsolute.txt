@@ -1,0 +1,37 @@
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\MainWindow.baml
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\App.g.cs
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\VkitDesktop_MarkupCompile.cache
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\VkitDesktop.g.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\VkitDesktop.Properties.Resources.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\bin\Debug\VkitDesktop.exe
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\bin\Debug\VkitDesktop.pdb
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\bin\Debug\itextsharp.dll
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\VkitDesktop.exe
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Debug\VkitDesktop.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.exe
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Debug\VkitDesktop.exe
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Debug\VkitDesktop.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Debug\itextsharp.dll
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Debug\itextsharp.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Debug\itextsharp.xml
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\MainWindow.baml
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\App.g.cs
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop_MarkupCompile.cache
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.g.resources
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.Properties.Resources.resources
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\WaitDlg.baml
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\WaitDlg.g.cs
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\OptionsDialog.baml
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\OptionsDialog.g.cs
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\AddEditSideText.baml
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\AddEditSideText.g.cs
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.csproj.GenerateResource.Cache
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\Instructions.baml
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\Instructions.g.cs

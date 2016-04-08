@@ -1,0 +1,88 @@
+﻿<Window x:Class="VkitDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SWCCG Virtual Slip Generator" Height="506" Width="749" Background="WhiteSmoke">
+    <Grid Loaded="OnLoaded" Margin="0,-2,0,0">
+
+        <Menu Name="menu1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="22" Margin="0,0,0,0" Background="#FFDEDEDE">
+            <MenuItem Header="_File" Click="MenuItem_Click">
+                <MenuItem Header="_Exit" Name="myExitMenu" Click="myExitMenu_Click" />
+            </MenuItem>
+            <MenuItem Header="_Cards" Name="myCardFormatMenu">
+                <MenuItem Header="_Standard" IsCheckable="True" Name="myStandardFormatMenu" Click="myStandardFormatMenuClick" />
+                <MenuItem Header="_Legacy" IsCheckable="True" Name="myLegacyFormatMenu" Click="myLegacyFormatMenuClick"/>
+                <MenuItem Header="_Cube" IsCheckable="True" Name="myCubeFormatMenu" Click="myCubeFormatMenuClick" Visibility="Hidden" />
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_Instructions" Name="myInstructionMenu" Click="myInstructionMenu_Click"/>
+            </MenuItem>
+
+        </Menu>
+        <Grid Margin="0,20,0,0">
+        <StackPanel Orientation="Vertical" Margin="5,0,5,0" HorizontalAlignment="Stretch">
+                <Label Content="Welcome to the Offline Vkit!" FontWeight="Bold"></Label>
+                <Label Margin="0,-10,0,0" Content="This tool allows you to generate custom PDFs containing any and all virtual cards that you want."></Label>
+        </StackPanel>
+            <!--
+        <Button Content="Instructions..." Height="23" Name="myInstructionsButton" Width="100"
+                VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,16,5,0" Click="myInstructionsButton_Click" />
+            -->
+
+        </Grid>
+        <!--
+        <Grid>
+            <Label Content="Filter Vcards on the Right. Click the '- ->' to add them to your final list." Height="28" HorizontalAlignment="Left" Margin="6,1,0,0" VerticalAlignment="Top" />
+            <Label Content="Click 'Generate' to output the items in the right-hand pane to a PDF." Height="28" HorizontalAlignment="Left" Margin="6,20,0,0" VerticalAlignment="Top" />
+        </Grid>
+        -->
+
+        <Grid Margin="0,60,0,0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle  Margin="0,2,0,0" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="1" Stroke="LightGray"/>
+
+            <Grid Grid.Column="0">
+                <TextBox Height="23" HorizontalAlignment="Stretch" Margin="5,27,5,0" Name="myFilterText" VerticalAlignment="Top" TextChanged="OnFilterChange" KeyDown="FilterdCards_KeyDown" />
+                <Label Content="Filter by Name:" Height="28" HorizontalAlignment="Left" Margin="3,6,0,0" Name="label1" VerticalAlignment="Top" Width="134" />
+                <ListBox HorizontalAlignment="Stretch" Margin="5,56,5,45" Name="myFilteredVcards" VerticalAlignment="Stretch" DisplayMemberPath="CardName" MouseDoubleClick="OnVcardDoubleClick" KeyDown="FilterdCards_KeyDown" SelectionMode="Extended" />
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Button Content="Add BB" FontWeight="Bold" Height="23" HorizontalAlignment="Stretch" Margin="2,-50,2,0" Name="myMoveRightButton" VerticalAlignment="Center" Click="myMoveRightButton_Click" />
+                <Button Content="Add White" FontWeight="Bold" Height="23" HorizontalAlignment="Stretch" Margin="2,0,2,0" Name="myMoveWhiteBorderRightButton" VerticalAlignment="Center" Click="myAddWhiteBorderButtonClick" />
+                <Button Content="Remove" FontWeight="Bold" Height="23" HorizontalAlignment="Stretch" Margin="2,50,2,0" Name="myMoveLeftButton" VerticalAlignment="Center" Click="myMoveLeftButton_Click" />
+                <Button Content="Options" Height="23" HorizontalAlignment="Stretch" Margin="0,338,0,0" Name="myOptionsButton" VerticalAlignment="Top" Click="myOptionsButton_Click" Visibility="Hidden" />
+                <CheckBox Content="CUBE-Features" Height="16" HorizontalAlignment="Left" Margin="0,306,0,0" Name="myCubeFeaturesCheckbox" VerticalAlignment="Top" Width="95" IsChecked="True" Visibility="Hidden" />
+            </Grid>
+
+            <Grid Grid.Column="2">
+
+                <ListBox HorizontalAlignment="Stretch" Margin="5,56,5,45" Name="mySelectedVcards" VerticalAlignment="Stretch" DisplayMemberPath="CardNameWithBorder" SelectionMode="Extended" KeyDown="OnSelectedCardKeyDown" SelectionChanged="mySelectedVcards_SelectionChanged">
+                    <ListBox.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Delete" Click="OnDeleteItemCommand" />
+                            <MenuItem Header="Switch To Alternate Border" Click="OnSwitchBorderCommand" />
+                            <MenuItem Header="Add / Edit Side Text" Click="OnAddEditText" />
+                        </ContextMenu>
+                    </ListBox.ContextMenu>
+                </ListBox>
+                <Button Content="Generate PDF..." Height="23" HorizontalAlignment="Right" Margin="0,0,5,5" Name="myWriteButton" VerticalAlignment="Bottom" Width="95" Click="myWriteButton_Click" />
+                <Label Content="Cards to print:" Height="28" HorizontalAlignment="Left" Margin="1,32,0,0" Name="label2" VerticalAlignment="Top" />
+                <Button Content="Import Holotable Deck..." Height="23" HorizontalAlignment="Right" Margin="0,27,5,0" Name="myImportButton" VerticalAlignment="Top" Width="150" Click="myImportButton_Click" />
+                <Button Content="Export List..." Height="23" HorizontalAlignment="Left" Margin="11,0,0,5" Name="myExportListButton" VerticalAlignment="Bottom" Width="75" Click="myExportListButton_Click" />
+                <Button Content="Import List..." Height="23" HorizontalAlignment="Left" Margin="92,0,0,5" Name="myImportListButton" VerticalAlignment="Bottom" Width="75" Click="myImportListButton_Click" />
+            </Grid>
+        
+            <Rectangle Grid.ColumnSpan="3" Stroke="LightGray" Margin="0,0,0,35" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
+
+
+            <TextBlock Text="Comments/Questions:  hyvee_doughboy@hotmail.com" Margin="5,0,0,5" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+            
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\MainWindow.baml
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\MainWindow.g.cs
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\App.g.cs
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\VkitDesktop_MarkupCompile.cache
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\VkitDesktop.g.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\VkitDesktop.Properties.Resources.resources
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\bin\Release\VkitDesktop.exe
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\bin\Release\VkitDesktop.pdb
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\bin\Release\itextsharp.dll
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\VkitDesktop.exe
+C:\Users\Tom\AppData\Local\Temporary Projects\VkitDesktop\obj\x86\Release\VkitDesktop.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Release\VkitDesktop.exe
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Release\VkitDesktop.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Release\itextsharp.dll
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\bin\Release\itextsharp.xml
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\MainWindow.baml
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\MainWindow.g.cs
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\App.g.cs
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\VkitDesktop_MarkupCompile.cache
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\VkitDesktop.g.resources
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\VkitDesktop.Properties.Resources.resources
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\VkitDesktop.exe
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\VkitDesktop.pdb
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\WaitDlg.baml
+C:\Users\Tom\documents\visual studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\WaitDlg.g.cs
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\OptionsDialog.baml
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\OptionsDialog.g.cs
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\AddEditSideText.baml
+C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Release\AddEditSideText.g.cs
