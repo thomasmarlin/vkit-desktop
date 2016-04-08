@@ -35,3 +35,24 @@ C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x
 C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.csproj.GenerateResource.Cache
 C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\Instructions.baml
 C:\Users\Tom\Documents\Visual Studio 2010\Projects\VkitDesktop\VkitDesktop\obj\x86\Debug\Instructions.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.exe
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.pdb
+C:\src\VkitDesktop\VkitDesktop\bin\Debug\VkitDesktop.exe
+C:\src\VkitDesktop\VkitDesktop\bin\Debug\VkitDesktop.pdb
+C:\src\VkitDesktop\VkitDesktop\bin\Debug\itextsharp.dll
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.csprojResolveAssemblyReference.cache
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\AddEditSideText.baml
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\Instructions.baml
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\MainWindow.baml
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\OptionsDialog.baml
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\WaitDlg.baml
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\AddEditSideText.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\Instructions.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\MainWindow.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\OptionsDialog.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\WaitDlg.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\App.g.cs
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop_MarkupCompile.cache
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.g.resources
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.Properties.Resources.resources
+C:\src\VkitDesktop\VkitDesktop\obj\x86\Debug\VkitDesktop.csproj.GenerateResource.Cache

@@ -466,6 +466,19 @@ namespace VkitDesktop
         private void OnLoaded(object sender, RoutedEventArgs e)
         {
 
+            MessageBoxResult result = MessageBox.Show(
+                "This program may ONLY be used to print out Virtual Cards " +
+                "which have been officially sanctioned by the Star Wars Players Committee. \n\n"+
+                "All other use of this program is strictly prohibitted." +
+                "\n\nClick 'Yes' to agree",
+                "Terms of Use",
+                MessageBoxButton.YesNo);
+            if (result != MessageBoxResult.Yes)
+            {
+                Application.Current.Shutdown();
+            }
+
+
             //StreamWriter missing = new StreamWriter("missingImageFiles.txt");
             String assemblyLocation = System.Reflection.Assembly.GetExecutingAssembly().Location;
             String installFolder = Path.GetDirectoryName(assemblyLocation);
@@ -478,6 +491,13 @@ namespace VkitDesktop
                     ShowCubeFeatures = true;
                 }
             }
+
+            if (ShowCubeFeatures)
+            {
+                MessageBox.Show("Printing of full image templates is not allowed! Remove your 'cube' files");
+                ShowCubeFeatures = false;
+            }
+
 
             if (ShowCubeFeatures)
             {
