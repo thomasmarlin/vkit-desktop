@@ -81,7 +81,7 @@
             <Rectangle Grid.ColumnSpan="3" Stroke="LightGray" Margin="0,0,0,35" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
 
 
-            <TextBlock Text="Comments/Questions:  hyvee_doughboy@hotmail.com" Margin="5,0,0,5" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+            <TextBlock Text="Comments/Questions:  www.starwarsccg.org" Margin="5,0,0,5" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
             
         </Grid>
     </Grid>
