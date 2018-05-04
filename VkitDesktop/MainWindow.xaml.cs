@@ -78,7 +78,8 @@ namespace VkitDesktop
          */
 
 
-        private List<Card> GetSelectedCards(bool smallCards, bool bigCards)
+        private List<Card> GetSelectedCards
+            (bool smallCards, bool bigCards)
         {
             List<Card> selectedCards = new List<Card>();
             foreach (var selection in mySelectedVcards.Items)
@@ -90,10 +91,10 @@ namespace VkitDesktop
 
                     try
                     {
-                        // See if the card is taller than 400 pixels
+                        // See if the card is Tall or wide  (full-template vs half-slip)
                         System.Drawing.Bitmap bmp = new System.Drawing.Bitmap(card.Path);
-                        if ((smallCards && bmp.Height < 400) ||
-                            (bigCards && bmp.Height >= 400))
+                        if ((smallCards && (bmp.Height < bmp.Width)) ||
+                            (bigCards && (bmp.Height >= bmp.Width)))
                         {
                             selectedCards.Add(card);
                         }
